@@ -36,3 +36,13 @@ Maybe add small icons or another color to the designs to give a little pop and m
 I would try and see if I could break down the 50 different regions to smaller less concentrated regions, but there would be less specific personalization. Additionally, if on a time sensitive campaign, I would just filter out and send to the regions that have the most subscribers.  So it’s a matter of speed vs quality personalization. 
 
 If the above is not feasible, then you would need to have 50 different segments representing each region, and then filter all the people who belong to each region to target them in the email. The dynamic content in the email would show based on the person’s region segment or geolocation, depending on how the data was gathered. This could be time consuming, so works best if there’s no rush and would result in greater quality personalization. 
+
+## Files
+*img* - folder contains assets and email prompt 
+
+*README.md* - includes the summary and level 4: dynamic content question 
+
+*font.css* - fonts css file from the lyft.com website 
+
+*index.html* - the source code for the email template including inline styles
+
