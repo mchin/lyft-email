@@ -1,0 +1,436 @@
+<!doctype html>
+<html>
+<head>
+    <!--Responsive meta tag where browser renders page to width of device screen -->
+    <meta name="viewport" content="width=device-width" />
+    <!--Set char encoding -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Lyft Email</title>
+    <link rel="stylesheet" href="fonts.css">
+    <style>
+        /* Body and Container */
+
+        body {
+            background: #f3f3f5;
+            font-family: Gotham SSm A, Gotham SSm B, HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+            color: #474c62;
+            -ms-text-size-adjust: 100%; /* For auto resize of fonts for Windows mobile */
+            -webkit-text-size-adjust: 100%;   /* For auto resize fonts Safari Chrome */
+        }
+
+        table {
+            mso-table-lspace: 0pt;
+            /*ms adds extra space to tables*/
+            mso-table-rspace: 0pt;
+        }
+
+        .wrapper {
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        .content {
+            display: block;
+            margin: 0 auto;
+            background: #fff;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .content tr td {
+            margin: 0 auto;
+            text-align: center;
+            vertical-align: middle;
+            width: 600px;
+        }
+
+        .content.one tr td {
+            display: block;
+            padding: 20px 0 0 0;
+        }
+
+        /* Typography and Images */
+
+        .content tr td p.one {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 300;
+            padding: 0 80px 0 80px;
+            color: #333447;
+        }
+
+        .content tr td p.two {
+            padding: 0 40px 0 40px;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 300;
+            color: #333447;
+        }
+
+        .content tr td p.three {
+            padding: 0 10px 0 0;
+            font-size: 95%;
+            line-height: 1.5;
+            font-weight: 300;
+            color: #333447;
+        }
+
+        .wrapper .td-logo {
+            width: 100%;
+            border-bottom: solid 3px #ff00bf;
+            padding-bottom: 10px;
+        }
+
+        .wrapper .logo {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            padding: 80px 0 20px 0;
+        }
+
+        .one h1 {
+            font-size: 40px;
+        }
+
+        .one .btn {
+            margin: 0 auto;
+            padding-bottom: 60px;
+        }
+
+        .one .btn a {
+
+            width: 160px;
+            height: 44px;
+            font-size: 14px;
+            font-weight: 300;
+            background: #ff00bf;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+            padding: 15px 35px 15px 35px;
+        }
+
+        .two tr td h2 {
+            color: #333447;
+            font-size: 30px;
+            padding: 25px 0 20px 0;
+        }
+
+        .two .nums p.lg {
+            display: inline-block;
+            font-size: 60px;
+            font-weight: 300;
+            color: #352384;
+            height: 10px;
+        }
+
+        .two .nums hr {
+            border: solid 2.7px #352384;
+            width: 50px;
+            text-align: center;
+        }
+
+        .two .nums .subtext {
+            font-weight: 300;
+            padding: 10px 0 0 0;
+        }
+
+        .two .social {
+            padding: 20px 0 30px 0;
+        }
+
+        .three h2 {
+            font-size: 30px;
+            color: #352384;
+            font-weight: 300;
+            padding: 10px 0 10px 0;
+        }
+
+        .three h3 {
+            line-height: 30px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .three .new hr {
+            border: solid 2.5px #352384;
+            width: 50px;
+            text-align: center;
+        }
+
+        .three .new td.desc {
+            width: 46%;
+            padding: 0 15px 30px 0;
+        }
+
+        .three .new td.img {
+            width: 49%;
+            padding: 0 0 30px 15px;
+        }
+
+        .three .footer {
+            padding: 0 0 20px 0;
+        }
+
+        .three .promo {
+            width: 77%;
+            display: block;
+            margin: 0 auto;
+            font-size: 95%;
+            line-height: 2;
+            font-weight: 300;
+            text-align: center;
+            padding: 20px 0 30px 0;
+        }
+
+        .three .promo a {
+            color: #ff00bf;
+            text-decoration: none;
+        }
+
+        .head-color {
+            color: #333447
+        }
+
+        /* Responsive Styles */
+
+        @media only screen and (max-width: 620px) {
+            .wrapper,
+            .content,
+            .content.one tr td,
+            .content.three tr td {
+                display: block;
+                width: 100%;
+            }
+
+            .wrapper .td-logo {
+                padding: 0;
+            }
+
+            .content {
+                margin-bottom: 8px;
+            }
+
+            .content tr td p.one {
+                font-size: 100%;
+                line-height: 1.5;
+                padding: 0 60px 0 60px;
+            }
+
+            .content tr td p.three {
+                font-size: 97%;
+                line-height: 1.5;
+                width: 65%;
+                margin: 0 auto;
+                padding: 15px 0 0 0;
+
+            }
+
+            .one h1 {
+                font-size: 175%;
+            }
+
+            .two h2 {
+                font-size: 120%;
+            }
+
+            .two .nums {
+                font-size: 45%;
+                width: 100%;
+                margin: 0 auto;
+
+            }
+
+            .two .nums tr td {
+                width: 48%;
+            }
+
+            .two .nums p.lg {
+                height: 8px;
+            }
+
+            .two .nums p.subtext {
+                font-size: 12px;
+                width: 60%;
+                padding: 0 0 0 40px;
+            }
+
+            .two .nums hr {
+                border: solid 1.5px #352384;
+                width: 50px;
+                text-align: center;
+            }
+
+            .three .new hr {
+                width: 12%;
+            }
+
+            .three h2 {
+                font-size: 116%;
+                padding: 10px 0 0 0;
+            }
+
+            .three h3 {
+                font-size: 95%;
+                line-height: 1.5;
+                text-align: center;
+                margin: 0 auto;
+                width: 50%;
+                padding: 0 0 20px 0;
+            }
+
+            .three .new td.desc,
+            .three .new td.img {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                padding: 0 0 30px 0;
+            }
+
+            .three .promo {
+                font-size: 97%;
+            }
+        }
+
+        /* Outlook and Hotmail Styles */
+
+        @media all {
+            .ExternalClass {
+                width: 100%;
+            }
+            .ExternalClass,
+            .ExternalClass p,
+            .ExternalClass td {
+                line-height: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table border="0" cellpadding="0" cellspacing="0" class="wrapper">
+        <tr>
+            <td class="td-logo">
+                <img src="img/logo_pink.png" class="logo" title="Lyft Logo" alt="Lyft Logo"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="0" cellpadding="0" cellspacing="0" class="content one">
+                    <tr>
+                        <td>
+                            <img src="http://image.lyftmail.com/lib/fe6915707166047a7d14/m/7/avatar.png" title="Lyft Avatar" alt="Lyft Avatar"/>
+                            <h1 class="head-color">Headline 1</h1>
+                            <p class="one">Lorem ipsum dolor sit amet, consecteteur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <table border="0" cellpadding="0" cellspacing="0" class="btn">
+                                <tr>
+                                    <td>
+                                        <a href="#" target="_blank">Lorem Ipsum</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="0" cellpadding="0" cellspacing="0" class="content two">
+                    <tr>
+                        <td>
+                            <h2 class="head-color">Headline 2</h2>
+                            <p class="two">Lorem ipsum dolor sit amet, consecteteur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorpe.</p>
+                            <table border="0" cellpadding="0" cellspacing="0" class="nums">
+                                <tr>
+                                    <td>
+                                        <p class="lg">123</p>
+                                        <hr/>
+                                        <p class="subtext">Lorem ipsum dolor</p>
+                                    </td>
+                                    <td>
+                                        <p class="lg">456</p>
+                                        <hr/>
+                                        <p class="subtext">Lorem ipsum dolor</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" class="social">
+                                <tr>
+                                    <td>
+                                        <a href="https://www.facebook.com/lyft/" target="_blank"><img src="img/fb-logo.png" title="Lyft Facebook" alt="Lyft Facebook" /></a>
+                                        <a href="https://twitter.com/lyft" target="_blank"><img src="img/twitter-logo.png" title="Lyft Twitter" alt="Lyft Twitter" /></a>
+                                        <a href="https://help.lyft.com/hc/en-us/requests/new?ticket_form_id=172018" target="_blank"><img src="img/email.png" title="Lyft Email" alt="Lyft Email" /></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="0" cellpadding="0" cellspacing="0" class="content three">
+                    <tr>
+                        <td>
+                            <h2>Headline Alt 2</h2>
+                            <table border="0" cellpadding="0" cellspacing="0" class="new" dir="rtl">
+                                <tr>
+                                    <td class="desc" dir="ltr">
+                                        <h3 class="head-color">Simplified Ride Requests</h3>
+                                        <hr />
+                                        <p class="three">Access all our ride options with a single tap and compare their ETAs side-by-side</p>
+                                    </td>
+
+                                    <td class="img" dir="ltr">
+                                        <img src="http://image.lyftmail.com/lib/fe6915707166047a7d14/m/7/simplified_requests.png" title="Screenshot on Mobile of Lyft Request" alt="Screenshot of Mobile" />
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td class="desc" dir="ltr">
+                                        <h3 class="head-color">Easy Access to Essentials</h3>
+                                        <hr />
+                                        <p class="three">See price estimate, contact drivers, and split fares from the same place</p>
+                                    </td>
+                                    <td class="img" dir="ltr">
+                                        <img src="http://image.lyftmail.com/lib/fe6915707166047a7d14/m/7/access_to_essentials.png" title="Screenshot of Mobile Lyft Navigation Menu" alt="Screenshot of Mobile Lyft Navigation Menu"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="desc" dir="ltr">
+                                        <h3 class="head-color">Fresh Design</h3>
+                                        <hr />
+                                        <p class="three">New icons, new colors, and a next-level glow</p>
+                                    </td>
+                                    <td class="img" dir="ltr">
+                                        <img src="http://image.lyftmail.com/lib/fe6915707166047a7d14/m/7/fresh_design.png " title="New Lyft Design Branding" alt="Screenshot of New Lyft Design Branding"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" class="footer">
+                                <tr>
+                                    <td>
+                                        <p class="promo">Get 10% off rides to and from restaurants participating in SF Restaurant Week. <a href="#">Learn More ></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
