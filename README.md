@@ -21,3 +21,16 @@ I QA while I code, so it’s a constant process of coding and then checking peri
 Testing tools are important so one knows what specifics to test for which include the top email clients. Also, one needs to make sure to have a checklist of things to check for before an email gets sent out. Make sure the links work when you click on them, and all the text is readable in different email clients. Also, making sure data is going into your email program to track opens and clicks, etc. by analyzing metrics and data. 
 
 A final QA is done on different email clients, browsers, and mobile devices as well as on sites like putsmail.com. or litmus software. 
+
+#### Any thoughts on optimizations, how you might improve the template
+
+There’s a good balance of images and text  but there’s a lot of whitespace. (in the first and second designs)
+
+Maybe add small icons or another color to the designs to give a little pop and maybe more personalization. 
+
+## Question - Level 4: Dynamic content
+### You’ve been asked to send an email to a national audience. One section of the email needs to be different depending on which region the subscriber has been approved to drive; there are 50 different regions that could fall into this audience. How would you approach this task?
+
+I would try and see if I could break down the 50 different regions to smaller less concentrated regions, but there would be less specific personalization. Additionally, if on a time sensitive campaign, I would just filter out and send to the regions that have the most subscribers.  So it’s a matter of speed vs quality personalization. 
+
+If the above is not feasible, then you would need to have 50 different segments representing each region, and then filter all the people who belong to each region to target them in the email. The dynamic content in the email would show based on the person’s region segment or geolocation, depending on how the data was gathered. This could be time consuming, so works best if there’s no rush and would result in greater quality personalization. 
