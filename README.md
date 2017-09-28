@@ -1,4 +1,6 @@
-# Summary
+![Lyft Logo](https://github.com/mchin/lyft-email/blob/master/img/logo_pink.png?raw=true "Lyft Logo")
+
+## Summary
 
 #### Process for completing the project
 
